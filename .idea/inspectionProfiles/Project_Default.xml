@@ -1,0 +1,55 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="DuplicatedCode" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+    <inspection_tool class="Eslint" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <value>
+          <list size="33">
+            <item index="0" class="java.lang.String" itemvalue="tensorflow-estimator" />
+            <item index="1" class="java.lang.String" itemvalue="opt-einsum" />
+            <item index="2" class="java.lang.String" itemvalue="blessings" />
+            <item index="3" class="java.lang.String" itemvalue="iso-639" />
+            <item index="4" class="java.lang.String" itemvalue="numpy" />
+            <item index="5" class="java.lang.String" itemvalue="torchvision" />
+            <item index="6" class="java.lang.String" itemvalue="tensorflow" />
+            <item index="7" class="java.lang.String" itemvalue="ipdb" />
+            <item index="8" class="java.lang.String" itemvalue="tensorboard-plugin-wit" />
+            <item index="9" class="java.lang.String" itemvalue="certifi" />
+            <item index="10" class="java.lang.String" itemvalue="torch-summary" />
+            <item index="11" class="java.lang.String" itemvalue="urllib3" />
+            <item index="12" class="java.lang.String" itemvalue="Markdown" />
+            <item index="13" class="java.lang.String" itemvalue="autopep8" />
+            <item index="14" class="java.lang.String" itemvalue="opencv-contrib-python" />
+            <item index="15" class="java.lang.String" itemvalue="gpustat" />
+            <item index="16" class="java.lang.String" itemvalue="wrapt" />
+            <item index="17" class="java.lang.String" itemvalue="ipython" />
+            <item index="18" class="java.lang.String" itemvalue="tf-slim" />
+            <item index="19" class="java.lang.String" itemvalue="torch" />
+            <item index="20" class="java.lang.String" itemvalue="streamlink" />
+            <item index="21" class="java.lang.String" itemvalue="tensorboard" />
+            <item index="22" class="java.lang.String" itemvalue="grpcio" />
+            <item index="23" class="java.lang.String" itemvalue="pycryptodome" />
+            <item index="24" class="java.lang.String" itemvalue="speedtest-cli" />
+            <item index="25" class="java.lang.String" itemvalue="iso3166" />
+            <item index="26" class="java.lang.String" itemvalue="pycocotools" />
+            <item index="27" class="java.lang.String" itemvalue="nvidia-ml-py3" />
+            <item index="28" class="java.lang.String" itemvalue="google-auth" />
+            <item index="29" class="java.lang.String" itemvalue="idna" />
+            <item index="30" class="java.lang.String" itemvalue="Pillow" />
+            <item index="31" class="java.lang.String" itemvalue="pyenigma" />
+            <item index="32" class="java.lang.String" itemvalue="sentence_transformers" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="object.predict" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>

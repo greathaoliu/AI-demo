@@ -1,6 +1,7 @@
 import streamlit as st
 from openai import OpenAI
 import json
+import os
 
 # 创建一个自定义的 OpenAI 客户端，指向本地的 Ollama 服务
 client = OpenAI(
@@ -9,7 +10,7 @@ client = OpenAI(
 )
 
 client_671B = OpenAI(
-    api_key="sk-hcgspmldivqyiidyknbsfsxneukcxtxzuptwziahltrbjxxb",
+    api_key=os.getenv("SILICONFLOW_API_KEY"),
     base_url="https://api.siliconflow.cn/v1"
 )
 

@@ -1,9 +1,10 @@
 import streamlit as st
 from openai import OpenAI
+import os
 
 # 初始化 OpenAI 客户端，配置 Silicon Flow API
 client = OpenAI(
-    api_key="sk-hcgspmldivqyiidyknbsfsxneukcxtxzuptwziahltrbjxxb",  # 替换为你的 Silicon Flow API 密钥
+    api_key=os.getenv("SILICONFLOW_API_KEY"),
     base_url="https://api.siliconflow.cn/v1"  # Silicon Flow 的 API 端点
 )
 
